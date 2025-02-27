@@ -1,0 +1,7 @@
+add_executable(log_text_consumer_sports logFileText_ConsumerSports.cpp)
+add_executable(log_text_producer_football logFileText_ProducerFootball.cpp)
+add_executable(log_text_producer_kungfu logFileText_ProducerKungfu.cpp)
+
+target_link_libraries(log_text_consumer_sports SharedMemoryLogger)
+target_link_libraries(log_text_producer_football SharedMemoryLogger)
+target_link_libraries(log_text_producer_kungfu SharedMemoryLogger)

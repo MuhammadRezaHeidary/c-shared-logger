@@ -1,0 +1,7 @@
+add_executable(log_html_consumer_animal logFileHtml_ConsumerAnimal.cpp)
+add_executable(log_html_producer_cat logFileHtml_ProducerCat.cpp)
+add_executable(log_html_producer_dog logFileHtml_ProducerDog.cpp)
+
+target_link_libraries(log_html_consumer_animal SharedMemoryLogger)
+target_link_libraries(log_html_producer_cat SharedMemoryLogger)
+target_link_libraries(log_html_producer_dog SharedMemoryLogger)

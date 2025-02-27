@@ -1,0 +1,7 @@
+add_executable(log_json_consumer_car logFileJson_ConsumerCar.cpp)
+add_executable(log_json_producer_irankhodro logFileJson_ProducerIrankhodro.cpp)
+add_executable(log_json_producer_saipa logFileJson_ProducerSaipa.cpp)
+
+target_link_libraries(log_json_consumer_car SharedMemoryLogger)
+target_link_libraries(log_json_producer_irankhodro SharedMemoryLogger)
+target_link_libraries(log_json_producer_saipa SharedMemoryLogger)

@@ -1,0 +1,3 @@
+add_executable(log_terminal log_terminal.cpp)
+
+target_link_libraries(log_terminal SharedMemoryLogger)

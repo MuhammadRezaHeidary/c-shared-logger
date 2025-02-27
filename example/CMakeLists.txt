@@ -1,0 +1,4 @@
+add_subdirectory(log_html_file)
+add_subdirectory(log_json_file)
+add_subdirectory(log_text_file)
+add_subdirectory(log_terminal)
