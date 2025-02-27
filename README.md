@@ -5,7 +5,7 @@
 ---
 
 ## ⚡ About This Repository  
-A robust **C++ Shared Memory Logger** designed for logging messages from multiple sources efficiently and safely.  
+A robust **C++ Shared Logger** designed for logging messages from multiple sources efficiently and safely.  
 
 ✅ **Thread-Safe Logging** – Ensures safe concurrent logging without conflicts  
 ✅ **Shared Memory Utilization** – Uses `/dev/shm` for high-speed inter-process communication  
